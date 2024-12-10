@@ -74,5 +74,7 @@ public class StockAnalysis {
         // Compute cumulative sum
         ArrayList<Float> cumulativeSum = computeCumulativeSum(stockPricesList);
         System.out.println("Cumulative Sum of Stock Prices: " + cumulativeSum);
+        
+        scanner.close();
     }
 }
